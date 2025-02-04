@@ -520,7 +520,51 @@
     display: none !important;
   }
 }
-@layer utilities;
+@layer utilities {
+  .fixed {
+    position: fixed;
+  }
+  .mr-1 {
+    margin-right: calc(var(--spacing) * 1);
+  }
+  .mr-3 {
+    margin-right: calc(var(--spacing) * 3);
+  }
+  .flex {
+    display: flex;
+  }
+  .inline-flex {
+    display: inline-flex;
+  }
+  .w-screen {
+    width: 100vw;
+  }
+  .justify-between {
+    justify-content: space-between;
+  }
+  .p-2 {
+    padding: calc(var(--spacing) * 2);
+  }
+  .font-sans {
+    font-family: var(--font-sans);
+  }
+  .text-lg {
+    font-size: var(--text-lg);
+    line-height: var(--tw-leading, var(--text-lg--line-height));
+  }
+}
+.nav-bar {
+  background-color: #EB7C8F;
+}
+#logo-fonts {
+  font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.text-color {
+  color: #030412;
+}
 @keyframes spin {
   to {
     transform: rotate(360deg);
