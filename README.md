@@ -35,6 +35,7 @@ This project is a website designed for a boba shop, targeting teens and early ad
 - **HTML and CSS:** For structure and styling.
 - **JavaScript:** To add interactivity and enhance user experience.
 - **Tailwind CSS:** For a clean and modern design.
+- **Node.js and npm:** For managing dependencies and backend development (future).
 - **Potential Backend (Future):** Node.js and Express for managing user accounts and orders.
 
 ## Folder Structure
@@ -59,6 +60,14 @@ project/
    cd boba-website
    ```
 3. Open `index.html` in a browser to view the website.
+ Install dependencies using npm:
+   ```bash
+   npm install
+   ```
+4. Start the project (for future backend development):
+   ```bash
+   npm start
+   ```
 
 ## Future Improvements
 - Add a search functionality for the menu.
@@ -71,3 +80,4 @@ Contributions are welcome! Feel free to submit issues or pull requests to improv
 ---
 
 Feel free to reach out for any questions or suggestions!
+E-mail:amankansahstate@gmail.com
