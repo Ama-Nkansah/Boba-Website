@@ -521,8 +521,11 @@
   }
 }
 @layer utilities {
-  .fixed {
-    position: fixed;
+  .sticky {
+    position: sticky;
+  }
+  .top-0 {
+    top: calc(var(--spacing) * 0);
   }
   .mr-1 {
     margin-right: calc(var(--spacing) * 1);
@@ -535,6 +538,9 @@
   }
   .inline-flex {
     display: inline-flex;
+  }
+  .h-screen {
+    height: 100vh;
   }
   .w-screen {
     width: 100vw;
@@ -564,6 +570,9 @@
 }
 .text-color {
   color: #030412;
+}
+#background-colour {
+  background-color: #F3F3ED;
 }
 @keyframes spin {
   to {
