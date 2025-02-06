@@ -18,3 +18,25 @@ background-color:#EB7C8F ;
 #background-colour{
   background-color:#F3F3ED;
 }
+
+.radius{
+  border-radius: 50%;
+}
+
+.home-button-1{
+  background-color:#EB7C8F;
+  color:#030412;
+}
+
+.home-button-2{
+  background-color:#030412;
+  color: #EB7C8F;
+}
+
+.home-buttons{
+  padding: 8px;
+  border: 2px solid #030412 ;
+  border-radius: 20px;
+
+
+}

@@ -521,11 +521,50 @@
   }
 }
 @layer utilities {
+  .absolute {
+    position: absolute;
+  }
+  .relative {
+    position: relative;
+  }
   .sticky {
     position: sticky;
   }
   .top-0 {
     top: calc(var(--spacing) * 0);
+  }
+  .top-10 {
+    top: calc(var(--spacing) * 10);
+  }
+  .top-15 {
+    top: calc(var(--spacing) * 15);
+  }
+  .top-20 {
+    top: calc(var(--spacing) * 20);
+  }
+  .top-30 {
+    top: calc(var(--spacing) * 30);
+  }
+  .top-58 {
+    top: calc(var(--spacing) * 58);
+  }
+  .left-1 {
+    left: calc(var(--spacing) * 1);
+  }
+  .left-44 {
+    left: calc(var(--spacing) * 44);
+  }
+  .left-46 {
+    left: calc(var(--spacing) * 46);
+  }
+  .left-47 {
+    left: calc(var(--spacing) * 47);
+  }
+  .z-10 {
+    z-index: 10;
+  }
+  .z-30 {
+    z-index: 30;
   }
   .mr-1 {
     margin-right: calc(var(--spacing) * 1);
@@ -539,8 +578,29 @@
   .inline-flex {
     display: inline-flex;
   }
+  .h-25 {
+    height: calc(var(--spacing) * 25);
+  }
+  .h-28 {
+    height: calc(var(--spacing) * 28);
+  }
+  .h-35 {
+    height: calc(var(--spacing) * 35);
+  }
+  .h-52 {
+    height: calc(var(--spacing) * 52);
+  }
   .h-screen {
     height: 100vh;
+  }
+  .w-25 {
+    width: calc(var(--spacing) * 25);
+  }
+  .w-35 {
+    width: calc(var(--spacing) * 35);
+  }
+  .w-52 {
+    width: calc(var(--spacing) * 52);
   }
   .w-screen {
     width: 100vw;
@@ -548,8 +608,21 @@
   .justify-between {
     justify-content: space-between;
   }
+  .justify-center {
+    justify-content: center;
+  }
+  .border-2 {
+    border-style: var(--tw-border-style);
+    border-width: 2px;
+  }
+  .p-0\.5 {
+    padding: calc(var(--spacing) * 0.5);
+  }
   .p-2 {
     padding: calc(var(--spacing) * 2);
+  }
+  .p-3 {
+    padding: calc(var(--spacing) * 3);
   }
   .font-sans {
     font-family: var(--font-sans);
@@ -573,6 +646,22 @@
 }
 #background-colour {
   background-color: #F3F3ED;
+}
+.radius {
+  border-radius: 50%;
+}
+.home-button-1 {
+  background-color: #EB7C8F;
+  color: #030412;
+}
+.home-button-2 {
+  background-color: #030412;
+  color: #EB7C8F;
+}
+.home-buttons {
+  padding: 8px;
+  border: 2px solid #030412;
+  border-radius: 20px;
 }
 @keyframes spin {
   to {
@@ -599,4 +688,9 @@
     transform: none;
     animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   }
+}
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
 }
