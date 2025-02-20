@@ -34,9 +34,10 @@ background-color:#EB7C8F ;
 }
 
 .home-buttons{
-  padding: 8px;
+  padding: 6px;
   border: 2px solid #030412 ;
   border-radius: 20px;
+  margin-top: 20px;
 
 
 }
