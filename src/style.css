@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import 'animate.css';
+
 
 .nav-bar{
 background-color:#EB7C8F ;
@@ -44,8 +46,9 @@ background-color:#EB7C8F ;
   font-weight: 400;
   font-style: normal;
   font-size: 17px;
-  color: white;
+  color:white;
   text-shadow: 2px 2px 4px black;
+  
 }
 
 .writing-size{
