@@ -17,8 +17,8 @@ background-color:#EB7C8F ;
   color:#030412;
 }
 
-#background-colour{
-  background-color:#F3F3ED;
+.background-colour{
+  background-color:#dedecd;
 }
 
 .radius{
@@ -59,4 +59,3 @@ background-color:#EB7C8F ;
   font-size: 30px;
   color: #EB7C8F;
 }
-
