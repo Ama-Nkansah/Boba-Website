@@ -578,17 +578,8 @@
   .z-30 {
     z-index: 30;
   }
-  .m-4 {
-    margin: calc(var(--spacing) * 4);
-  }
   .m-5 {
     margin: calc(var(--spacing) * 5);
-  }
-  .m-6 {
-    margin: calc(var(--spacing) * 6);
-  }
-  .m-45 {
-    margin: calc(var(--spacing) * 45);
   }
   .mx-25 {
     margin-inline: calc(var(--spacing) * 25);
@@ -684,6 +675,9 @@
   }
   .p-5 {
     padding: calc(var(--spacing) * 5);
+  }
+  .p-10 {
+    padding: calc(var(--spacing) * 10);
   }
   .px-10 {
     padding-inline: calc(var(--spacing) * 10);
@@ -4338,7 +4332,7 @@
   font-style: normal;
   font-size: 17px;
   color: white;
-  text-shadow: 2px 2px 4px black;
+  text-shadow: 2px 2px 5px black,0 0 5px #EB7C8F;
 }
 .writing-size {
   font-size: 21px;

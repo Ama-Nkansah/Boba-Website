@@ -47,7 +47,7 @@ background-color:#EB7C8F ;
   font-style: normal;
   font-size: 17px;
   color:white;
-  text-shadow: 2px 2px 4px black;
+  text-shadow: 2px 2px 5px black,0 0 5px #EB7C8F;
   
 }
 
