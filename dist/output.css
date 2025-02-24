@@ -539,6 +539,9 @@
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
+  .top-5 {
+    top: calc(var(--spacing) * 5);
+  }
   .top-10 {
     top: calc(var(--spacing) * 10);
   }
@@ -565,6 +568,9 @@
   }
   .left-44 {
     left: calc(var(--spacing) * 44);
+  }
+  .left-45 {
+    left: calc(var(--spacing) * 45);
   }
   .left-46 {
     left: calc(var(--spacing) * 46);
@@ -690,6 +696,9 @@
   }
   .pr-1 {
     padding-right: calc(var(--spacing) * 1);
+  }
+  .pr-2 {
+    padding-right: calc(var(--spacing) * 2);
   }
   .pr-3 {
     padding-right: calc(var(--spacing) * 3);

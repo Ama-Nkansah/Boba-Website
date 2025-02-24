@@ -1,95 +1,163 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Boba Website</title>
-  <link href="./dist/output.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lilita+One&family=Rubik+Bubbles&family=Satisfy&display=swap" rel="stylesheet">
-</head>
-<body>
-  <nav class="nav-bar flex justify-between p-2 w-screen sticky top-0 z-30">
-    <!-- my logo navigate to home -->
-        <a href="#home"> 
-         <div class="inline-flex">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boba Website</title>
+    <link href="./dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lilita+One&family=Rubik+Bubbles&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="nav-bar flex justify-between p-2 w-screen sticky top-0 z-30">
+      <!-- my logo navigate to home -->
+      <a href="#home">
+        <div class="inline-flex">
           <p class="logo-fonts text-color mr-1 text-lg">Boba Bloom</p>
-          <img width="30" height="5" src="https://img.icons8.com/emoji/48/bubble-tea.png" alt="bubble-tea"/>
-         </div>
+          <img
+            width="30"
+            height="5"
+            src="https://img.icons8.com/emoji/48/bubble-tea.png"
+            alt="bubble-tea"
+          />
+        </div>
       </a>
-      
+
       <!--Hamburger icon -->
       <div class="inline-flex pr-3">
-        <img width="20" height="10" src="https://img.icons8.com/ios/50/menu--v1.png" alt="shopping-cart--v1"/>
+        <img
+          width="20"
+          height="10"
+          src="https://img.icons8.com/ios/50/menu--v1.png"
+          alt="shopping-cart--v1"
+        />
       </div>
-  </nav>
- 
-  <!-- home section -->
-  <section>
-  <div class="background-colour h-screen w-screen p-3">
-      <img src="./boba-images/cafe.jpeg" class="radius w-52 h-52 relative top-10 border-2 animate__animated animate__zoomIn">
-      <img src="./boba-images/Bubble tea 🧋.jpeg" class="radius w-25 h-25 absolute left-46 top-15 z-10 border-2 animate__animated animate__slideInDown animate__delay-1s	">
-      <img src="./boba-images/matcha-boba.jpeg" class="radius w-25 h-28  absolute left-47 top-58 border-2 animate__animated animate__slideInRight animate__delay-1s">
-      <img src="./boba-images/fruity-boba.jpeg" class="radius w-35 h-35 relative left-1 top-20 border-2 animate__animated animate__fadeInLeft animate__delay-1s">
+    </nav>
 
-      <p class="writings absolute left-44 top-91 pr-1 ">More Than Boba, <br/>It's a Blooming<br/> Experience.</p>
+    <!-- home section -->
+    <section>
+      <div class="background-colour h-screen w-screen p-3">
+        <img
+          src="./boba-images/cafe.jpeg"
+          class="radius w-52 h-52 relative top-10 border-2 animate__animated animate__zoomIn"
+        />
+        <img
+          src="./boba-images/Bubble tea 🧋.jpeg"
+          class="radius w-25 h-25 absolute left-46 top-15 z-10 border-2 animate__animated animate__slideInDown animate__delay-1s"
+        />
+        <img
+          src="./boba-images/matcha-boba.jpeg"
+          class="radius w-25 h-28 absolute left-46 top-58 border-2 animate__animated animate__slideInRight animate__delay-1s"
+        />
+        <img
+          src="./boba-images/fruity-boba.jpeg"
+          class="radius w-35 h-35 relative left-1 top-20 border-2 animate__animated animate__fadeInLeft animate__delay-1s"
+        />
 
-    <div class="relative top-25 flex justify-between">
-      <button class="home-button-1 home-buttons animate__animated animate__fadeInLeft animate__delay-2s">Products</button>
-      <button class="home-button-2 home-buttons animate__animated animate__fadeInRight animate__delay-2s">Our Branches</button>
-    </div>
-    <div class="flex justify-between items-center relative top-26 pb-4">
-      <p><span class="writings writing-size flex justify-center">5</span>Beverages</p>
-      <p><span class="writings writing-size flex justify-center">2</span>Branches</p>
-    </div>
-  </div>
+        <p class="writings absolute left-44 top-91 pr-1">
+          More Than Boba, <br />It's a Blooming<br />
+          Experience.
+        </p>
 
- </div>
+        <div class="relative top-25 flex justify-between">
+          <button
+            class="home-button-1 home-buttons animate__animated animate__fadeInLeft animate__delay-2s"
+          >
+            Products
+          </button>
+          <button
+            class="home-button-2 home-buttons animate__animated animate__fadeInRight animate__delay-2s"
+          >
+            Our Branches
+          </button>
+        </div>
+        <div class="flex justify-between items-center relative top-26 pb-4">
+          <p>
+            <span class="writings writing-size flex justify-center">5</span
+            >Beverages
+          </p>
+          <p>
+            <span class="writings writing-size flex justify-center">2</span
+            >Branches
+          </p>
+        </div>
+      </div>
 
-<!--cont. home section  -->
-<h1 class="customize-writings writings px-10 py-2">What's Boba?</h1>
-<div class="grid grid-cols-1 gap-5 p-5 text-color">
-  <p>
-    Bubble tea has been popular since its introduction in the 1980s throughout Asia 
-    and is now becoming increasingly trendy in America and Europe as well.
-    Now is the perfect time to introduce these delicious beverages to the Austrian foodies!
-  </p>
-  <p>
-    Boba aims to give its customers the ultimate bubble tea experience with every sip they take! 
-    Here you can try the tasty classics as well as novel seasonal creations and enjoy the new Asian tea culture with
-    the people you love! Our mission is to break the old-fashioned prejudice that tea is just a hot 
-    drink you have during cold days but a lifestyle and lovely experience!
-    We wish to make tea an indispensable part of your day.
-  </p>
-  <p>
-    Our secret to success is simple: Carefully-selected tea leaves, homemade syrups,
-    fresh fruits, a mind for creativity and constantly working to further improve our products. 
-    We put the utmost care into our drinks and you will taste the quality!
-  </p>
-</div>
-<!-- images -->
-<div class="grid grid-cols-1 gap-5 px-10 py-5">
-  <img src="boba-images/Boba-space.jpeg" alt="Boba space">
-  <img src="boba-images/bobatea-graz_3.jpeg" alt="Boba-eatery">
-</div>
+      <!--cont. home section  -->
+      <h1 class="customize-writings writings px-10 py-2">What's Boba?</h1>
+      <div class="grid grid-cols-1 gap-5 p-5 text-color">
+        <p>
+          Bubble tea has been popular since its introduction in the 1980s
+          throughout Asia and is now becoming increasingly trendy in America and
+          Europe as well. Now is the perfect time to introduce these delicious
+          beverages to the Austrian foodies!
+        </p>
+        <p>
+          Boba aims to give its customers the ultimate bubble tea experience
+          with every sip they take! Here you can try the tasty classics as well
+          as novel seasonal creations and enjoy the new Asian tea culture with
+          the people you love! Our mission is to break the old-fashioned
+          prejudice that tea is just a hot drink you have during cold days but a
+          lifestyle and lovely experience! We wish to make tea an indispensable
+          part of your day.
+        </p>
+        <p>
+          Our secret to success is simple: Carefully-selected tea leaves,
+          homemade syrups, fresh fruits, a mind for creativity and constantly
+          working to further improve our products. We put the utmost care into
+          our drinks and you will taste the quality!
+        </p>
+      </div>
+      <!-- images -->
+      <div class="grid grid-cols-1 gap-5 px-10 py-5">
+        <img src="boba-images/Boba-space.jpeg" alt="Boba space" />
+        <img src="boba-images/bobatea-graz_3.jpeg" alt="Boba-eatery" />
+      </div>
 
-<!--varieties of boba -->
-<div class="background-colour">
-  <h1 class="writings customize-writings p-5 px-10">Most Wanted</h1>
-  <!-- menu button -->
-  <button id="menu-button" class="home-button-2 home-buttons m-5 mx-25"> Our Menu</button>
-  <!-- tea images -->
-  <div class="grid grid-cols-1 gap-5 p-10">
-    <img src="boba-images/Banana-boba.jpeg">
-    <img src="boba-images/Coffee-Bubble-Milk.jpeg">
-    <img src="boba-images/fruity-boba.jpeg">
-    <img src="boba-images/Matcha-Bubble-Milk.jpeg">
-    <img src="boba-images/matcha-boba.jpeg">
-  </div>
-</div>
+      <!--varieties of boba -->
+      <div class="background-colour">
+        <h1 class="writings customize-writings p-5 px-10">Most Wanted</h1>
+        <!-- menu button -->
+        <button id="menu-button" class="home-button-2 home-buttons m-5 mx-25">
+          Our Menu
+        </button>
+        <!-- tea images -->
+        <section class="grid grid-cols-1 gap-5 p-10">
+          <img src="boba-images/Banana-boba.jpeg" />
+          <div class="">
+            <button>BUBBLE WAFFEL</button>
+            <p>Banana Chocolate</p>
+          </div>
 
+          <img src="boba-images/Coffee-Bubble-Milk.jpeg" />
+          <div class="">
+            <button>BUBBLE WAFFEL</button>
+            <p>Banana Chocolate</p>
+          </div>
 
-</section>
-</body>
+          <img src="boba-images/fruity-boba.jpeg" />
+          <div class="">
+            <button>BUBBLE WAFFEL</button>
+            <p>Banana Chocolate</p>
+          </div>
+
+          <img src="boba-images/Matcha-Bubble-Milk.jpeg" />
+          <div class="">
+            <button>BUBBLE WAFFEL</button>
+            <p>Banana Chocolate</p>
+          </div>
+
+          <img src="boba-images/matcha-boba.jpeg" />
+          <div class="">
+            <button>BUBBLE WAFFEL</button>
+            <p>Banana Chocolate</p>
+          </div>
+        </section>
+      </div>
+    </section>
+  </body>
 </html>
