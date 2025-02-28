@@ -14,7 +14,7 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
   </head>
   <body>
-    <nav class="nav-bar flex justify-between p-2 w-screen sticky top-0 z-30">
+    <nav class="nav-bar flex justify-between p-2 w-full sticky top-0 z-30">
       <!-- my logo navigate to home -->
       <a href="#home">
         <div class="inline-flex">
@@ -41,30 +41,30 @@
 
     <!-- home section -->
     <section>
-      <div class="background-colour h-screen w-screen p-3">
+      <div class="background-colour h-screen w-full p-4">
         <img
           src="./boba-images/cafe.jpeg"
-          class="radius w-56 h-56 relative top-10 border-2 animate__animated animate__zoomIn"
+          class="radius w-60 h-60 relative top-10 border-2 animate__animated animate__zoomIn"
         />
         <img
           src="./boba-images/Bubble tea 🧋.jpeg"
-          class="radius w-30 h-30 absolute left-50 top-15 z-10 border-2 animate__animated animate__slideInDown animate__delay-1s"
+          class="radius w-30 h-30 absolute left-52 top-15 z-10 border-2 animate__animated animate__slideInDown animate__delay-1s"
         />
         <img
           src="./boba-images/matcha-boba.jpeg"
-          class="radius w-28 h-32 absolute left-52 top-58 border-2 animate__animated animate__slideInRight animate__delay-1s"
+          class="radius w-30 h-32 absolute left-55 top-62 mr-6 border-2 animate__animated animate__slideInRight animate__delay-1s"
         />
         <img
           src="./boba-images/fruity-boba.jpeg"
-          class="radius w-35 h-35 relative left-1 top-20 border-2 animate__animated animate__fadeInLeft animate__delay-1s"
+          class="radius w-32 h-32 relative left-1 top-23 border-2 animate__animated animate__fadeInLeft animate__delay-1s"
         />
 
-        <p class="writings absolute left-44 top-100 pr-1">
+        <p class="writings writing-size absolute left-43 top-103 pr-1">
           More Than Boba, <br />It's a Blooming<br />
           Experience.
         </p>
 
-        <div class="relative top-27 flex justify-between">
+        <div class="relative top-30 flex justify-between mx-2">
           <!-- product button -->
           <button
             class="home-button-1 home-buttons animate__animated animate__fadeInLeft animate__delay-2s"
@@ -78,7 +78,9 @@
             Our Branches
           </button>
         </div>
-        <div class="flex justify-between items-center relative top-28 pb-4">
+
+        <!-- beverages no and branches -->
+        <div class="flex justify-between items-center relative top-31 pb-4">
           <p>
             <span class="writings writing-size flex justify-center">5</span
             >Beverages
@@ -89,9 +91,11 @@
           </p>
         </div>
       </div>
+    </section>
 
       <!--cont. home section  -->
-      <h1 class="customize-writings writings px-10 py-2">What's Boba?</h1>
+      <section>
+      <h1 class="customize-writings writings px-16 py-2">What's Boba?</h1>
       <div class="grid grid-cols-1 gap-5 p-5 text-color">
         <p>
           Boba or Bubble tea has been popular since its introduction in the 1980s
@@ -120,8 +124,10 @@
         <img src="boba-images/Boba-space.jpeg" alt="Boba space" />
         <img src="boba-images/bobatea-graz_3.jpeg" alt="Boba-eatery" />
       </div>
+    </section>
 
       <!--varieties of boba -->
+    <section>
       <div class="background-colour">
         <h1 class="writings customize-writings p-5 px-10">Most Wanted</h1>
         <!-- menu button -->
