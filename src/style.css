@@ -76,6 +76,39 @@ background-color:#EB7C8F ;
     font-size: 20px;
     top: 430px;
   }
+
+   #menu-button{
+    margin-left: 150px;
+   }
+  
+   .boba-tags1{
+    left: 130px;
+  }
+
+  .boba-tags2{
+    left: 150px;
+    top:540px ;
+  }
+
+  .boba-tags3{
+    left: 100px;
+    top:1000px ;
+  }
+
+  .boba-tags4{
+    left: 100px;
+    top:1400px ;
+  }
+
+  .boba-tags5{
+    left: 120px;
+    top:1900px ;
+  }
+
+  .boba-tags6{
+    left: 120px;
+    top:2340px ;
+  }
 }
 
 @media (min-width: 440px) and (max-width: 550px) {
