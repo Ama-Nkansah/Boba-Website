@@ -4397,6 +4397,27 @@
     top: 90px;
   }
 }
+@media (min-width: 550px) and (max-width: 640px) {
+  .writing-size {
+    font-size: 25px;
+    right: 150px;
+  }
+  #img-2 {
+    width: 150px;
+    height: 150px;
+    left: 280px;
+  }
+  #img-3 {
+    width: 150px;
+    height: 150px;
+    left: 450px;
+    bottom: 300px;
+  }
+  #img-4 {
+    top: -210px;
+    left: 380px;
+  }
+}
 @keyframes spin {
   to {
     transform: rotate(360deg);
