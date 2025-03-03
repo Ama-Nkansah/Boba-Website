@@ -1,7 +1,6 @@
 @import "tailwindcss";
 @import 'animate.css';
 
-
 .nav-bar{
 background-color:#EB7C8F ;
 }
@@ -60,3 +59,44 @@ background-color:#EB7C8F ;
   color: #EB7C8F;
 }
 
+@media (min-width: 440px) and (max-width: 640px) {
+  .writing-size{
+    font-size: 23px;
+  }
+  
+  #specific-bloom{
+    left:200px;
+    padding-top: 15px;
+    padding-right: 15px;
+  }
+
+  #img-1{
+    width: 300px;
+    height: 300px;
+  }
+
+  #img-2{
+    width: 150px;
+    height: 150px;
+    left: 250px;
+  }
+
+  #img-3{
+    width: 150px;
+    height: 150px;
+    left: 280px;
+    bottom: 300px;
+  }
+
+  #img-4{
+    top: 65px;
+  }
+  
+  #branch-1{
+    top: 80px;
+  }
+
+  #branch-2{
+    top: 90px;
+  }
+}
