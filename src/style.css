@@ -59,6 +59,25 @@ background-color:#EB7C8F ;
   color: #EB7C8F;
 }
 
+@media (min-width: 380px) and (max-width: 439px) {
+  #img-2{
+    width: 147px;
+    height: 147px;
+    left: 220px;
+  }
+
+  #img-3{
+    width: 147px;
+    height: 147px;
+    left: 220px;
+    bottom: 300px;
+  }
+  .writing-size{
+    font-size: 20px;
+    top: 430px;
+  }
+}
+
 @media (min-width: 440px) and (max-width: 640px) {
   .writing-size{
     font-size: 23px;
