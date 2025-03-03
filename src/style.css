@@ -81,8 +81,8 @@ background-color:#EB7C8F ;
     margin-left: 150px;
    }
   
-   /* .boba-tags1{ 
-    left: 130px;
+   .boba-tags1{ 
+    left: 60px;
   }
 
   .boba-tags2{
@@ -108,7 +108,7 @@ background-color:#EB7C8F ;
   .boba-tags6{
     left: 120px;
     top:2340px ;
-   } */
+   } 
 }
 
 @media (min-width: 440px) and (max-width: 550px) {
