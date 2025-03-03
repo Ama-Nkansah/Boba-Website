@@ -59,7 +59,7 @@ background-color:#EB7C8F ;
   color: #EB7C8F;
 }
 
-@media (min-width: 380px) and (max-width: 439px) {
+@media (min-width: 380px) and (max-width: 440px) {
   #img-2{
     width: 147px;
     height: 147px;
@@ -78,7 +78,7 @@ background-color:#EB7C8F ;
   }
 }
 
-@media (min-width: 440px) and (max-width: 640px) {
+@media (min-width: 440px) and (max-width: 550px) {
   .writing-size{
     font-size: 23px;
   }
@@ -123,25 +123,43 @@ background-color:#EB7C8F ;
   @media (min-width: 550px) and (max-width: 640px) {
     .writing-size{
       font-size: 25px;
+    }
+
+    #specific-bloom{
+      top: 450px;
       right: 150px;
+      padding-top: 15px;
+      padding-right: 15px;
+    }
+
+    #img-1{
+      width: 350px;
+      height: 350px;
     }
 
     #img-2{
       width: 150px;
       height: 150px;
-      left: 280px;
+      left: 290px;
     }
   
     #img-3{
       width: 150px;
       height: 150px;
-      left: 450px;
-      bottom: 300px;
+      left: 350px;
+      bottom: 290px;
     }
 
     #img-4{
-      top: -210px;
-      left: 380px;
+      top: -270px;
+      left: 400px;
     }
     
+    #branch-1{
+      top: 45px;
+    }
+  
+    #branch-2{
+      top: 43px;
+    }
   }
