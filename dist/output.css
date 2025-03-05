@@ -4444,6 +4444,8 @@
     right: 150px;
     padding-top: 15px;
     padding-right: 15px;
+    flex: auto;
+    flex-direction: row;
   }
   #img-1 {
     width: 350px;
