@@ -4373,6 +4373,9 @@
     font-size: 20px;
     top: 430px;
   }
+  #specific-bloom {
+    margin-bottom: 5px;
+  }
   #menu-button {
     margin-left: 150px;
   }
@@ -4433,6 +4436,30 @@
   }
   #branch-2 {
     top: 90px;
+  }
+  .boba-tags1 {
+    left: 120px;
+    top: 40px;
+  }
+  .boba-tags2 {
+    left: 130px;
+    top: 40px;
+  }
+  .boba-tags3 {
+    left: 85px;
+    top: 40px;
+  }
+  .boba-tags4 {
+    left: 75px;
+    top: 45px;
+  }
+  .boba-tags5 {
+    left: 100px;
+    top: 35px;
+  }
+  .boba-tags6 {
+    left: 130px;
+    top: 40px;
   }
 }
 @media (min-width: 550px) and (max-width: 640px) {
