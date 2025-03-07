@@ -4408,6 +4408,9 @@
   .writing-size {
     font-size: 23px;
   }
+  #menu-button {
+    margin-left: 170px;
+  }
   #specific-bloom {
     left: 200px;
     padding-top: 15px;
@@ -4466,6 +4469,13 @@
   .writing-size {
     font-size: 25px;
   }
+  .customize-writings {
+    font-size: 40px;
+  }
+  #menu-button {
+    margin-left: 235px;
+    font-size: 18px;
+  }
   #specific-bloom {
     top: 450px;
     right: 150px;
@@ -4498,6 +4508,36 @@
   }
   #branch-2 {
     top: 43px;
+  }
+  .home-button-1 {
+    font-size: 20px;
+  }
+  .sub-tags {
+    font-size: 20px;
+  }
+  .boba-tags1 {
+    left: 155px;
+    top: 40px;
+  }
+  .boba-tags2 {
+    left: 165px;
+    top: 45px;
+  }
+  .boba-tags3 {
+    left: 130px;
+    top: 44px;
+  }
+  .boba-tags4 {
+    left: 115px;
+    top: 45px;
+  }
+  .boba-tags5 {
+    left: 150px;
+    top: 45px;
+  }
+  .boba-tags6 {
+    left: 160px;
+    top: 55px;
   }
 }
 @keyframes spin {
