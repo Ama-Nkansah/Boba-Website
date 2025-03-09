@@ -285,4 +285,21 @@ background-color:#EB7C8F ;
     .writing-size{
       font-size: 27px;
     } 
+
+    .customize-writings{
+      font-size: 45px;
+    }
+
+    #menu-button{
+      margin-left: 275px;
+      font-size: 22px;
+     }
+
+     .tag-font{
+      font-size: 25px;
+     }
+
+     .sub-tags{
+      font-size: 24px;
+     }
   }
