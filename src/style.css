@@ -161,6 +161,11 @@ background-color:#EB7C8F ;
     top: 90px;
   }
 
+  #sub-tag1{
+    position: relative;
+     left:3px ;
+  }
+
   .boba-tags1{ 
     left: 120px;
     top: 40px;
