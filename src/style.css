@@ -4,6 +4,15 @@
 .nav-bar{
 background-color:#EB7C8F ;
 }
+
+.nav-writings{
+  font-family: "Rubik Bubbles", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color:rgb(9, 9, 9);
+  text-shadow: 2px 2px 5px rgb(241, 238, 238),0 0 5px #EB7C8F;
+}
  
 .logo-fonts{
   font-family: "Caveat", serif;
@@ -295,16 +304,18 @@ background-color:#EB7C8F ;
       font-size: 45px;
     }
 
-    #menu-button{
-      margin-left: 275px;
-      font-size: 22px;
-     }
-
      .tag-font{
       font-size: 25px;
      }
 
      .sub-tags{
       font-size: 24px;
+     }
+  }
+
+  @media (640px>= width <=768){
+    #menu-button{
+      margin-left: 275px;
+      font-size: 22px;
      }
   }
