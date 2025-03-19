@@ -68,6 +68,11 @@ background-color:#EB7C8F ;
   color: #EB7C8F;
 }
 
+.footer-writings{
+  color: #EB7C8F;
+  text-shadow: 2px 2px 0px black,
+}
+
 @media (min-width: 380px) and (max-width: 440px) {
   #img-2{
     width: 147px;
