@@ -4845,6 +4845,19 @@
     font-size: 22px;
   }
 }
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.image-class {
+  animation: zoomIn 0.9s ease-out;
+}
 @keyframes spin {
   to {
     transform: rotate(360deg);
