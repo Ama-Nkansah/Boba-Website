@@ -4855,7 +4855,7 @@
     opacity: 1;
   }
 }
-.image-class {
+.animate-zoom {
   animation: zoomIn 0.9s ease-out;
 }
 @keyframes spin {

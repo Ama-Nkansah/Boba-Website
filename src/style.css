@@ -336,6 +336,6 @@ background-color:#EB7C8F ;
     }
   }
 
-  .image-class {
+  .animate-zoom{
     animation: zoomIn 0.9s ease-out;
   }
