@@ -319,46 +319,95 @@ background-color:#EB7C8F ;
 }
 
 
-@media (min-width: 410px) and (max-width: 440px) {
+@media (min-width: 490px) and (max-width: 550px) {
   #img-1{
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 320px;
+    top: 10px;
     
   }
 
   #img-2{
-    width: 147px;
-    height: 147px;
-    left: 250px;
+    width: 150px;
+    height: 150px;
+    left: 350px;
   }
 
   #img-3{
-    width: 147px;
-    height: 147px;
-    left: 270px;
+    width: 150px;
+    height: 150px;
+    left: 370px;
     bottom: 300px;
   }
 
   #img-4{
-    top: 60px;
+    top: 20px;
     width: 147px;
     height: 147px;
   }
 
   #branch-1{
-    top: 80px;
+    top: 50px;
   }
 
   #branch-2{
-    top: 90px;
+    top: 60px;
   }
 
   #specific-bloom{
     left:200px;
+    top: 450px;
     padding-top: 15px;
-    padding-right: 1px;
+    padding-right: 5px;
   }
+
+  .sub-tags{
+    font-size: 19px;
+  }
+
+  .tag-font{
+    font-size: larger;
+  }
+
+  .customize-writings{
+    font-size: 40px;
+  }
+
+  #menu-button{
+   margin-left: 240px;
+  }
+
+  .boba-tags1{ 
+    left: 155px;
+    top: 40px;
+  }
+
+  .boba-tags2{
+    left: 165px;
+    top:45px ;
+  }
+
+  .boba-tags3{
+    left: 130px;
+    top:44px ;
+  }
+
+  .boba-tags4{
+    left: 115px;
+    top:45px ;
+  }
+
+   .boba-tags5{
+  left: 150px;
+  top:45px ;
 }
+
+.boba-tags6{
+  left: 160px;
+  top: 55px ;
+ } 
+}
+
   @media (min-width: 550px) and (max-width: 640px) {
     .writing-size{
       font-size: 25px;
@@ -390,19 +439,21 @@ background-color:#EB7C8F ;
     #img-2{
       width: 150px;
       height: 150px;
-      left: 290px;
+      left: 380px;
     }
   
     #img-3{
       width: 150px;
       height: 150px;
-      left: 350px;
-      bottom: 290px;
+      left: 400px;
+      top: 390px;
     }
 
     #img-4{
-      top: -270px;
-      left: 400px;
+      top: -185px;
+      left: 380px;
+      width: 150px;
+      height: 150px;
     }
     
     #branch-1{
@@ -413,17 +464,26 @@ background-color:#EB7C8F ;
       top: 43px;
     }
 
+    #menu-button{
+      font-size:larger;
+     }
+
+    .tag-font{
+      font-size: 21px;
+     }
     .sub-tags{
       font-size: 20px;
+      position: relative;
+      left: 10px;
     }
 
     .boba-tags1{ 
-      left: 155px;
+      left: 158px;
       top: 40px;
     }
   
     .boba-tags2{
-      left: 165px;
+      left: 170px;
       top:45px ;
     }
   
@@ -448,6 +508,32 @@ background-color:#EB7C8F ;
    } 
   }
 
+    @media (min-width: 640px) and (max-width: 768px) {
+    #menu-button{
+      margin-left: 275px;
+      font-size: 22px;
+     }
+     #img-2{
+      width: 160px;
+      height: 160px;
+      left: 380px;
+    }
+  
+    #img-3{
+      width: 160px;
+      height: 160px;
+      left: 400px;
+      top: 390px;
+    }
+
+     #img-4{
+      top: -220px;
+      left: 465px;
+      width: 150px;
+      height: 150px;
+    }
+  }
+
   @media (min-width: 640px){
     .writing-size{
       font-size: 27px;
@@ -463,14 +549,7 @@ background-color:#EB7C8F ;
 
      .sub-tags{
       font-size: 20px;
-     }
-  }
-
-  @media (640px>= width <=768){
-    #menu-button{
-      margin-left: 275px;
-      font-size: 22px;
-     }
+     } 
   }
 
   @keyframes zoomIn{
