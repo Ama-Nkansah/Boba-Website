@@ -532,6 +532,23 @@ background-color:#EB7C8F ;
       width: 150px;
       height: 150px;
     }
+    
+    #specific-bloom{
+      top: 480px;
+      right: 170px;
+      padding-top: 15px;
+      padding-right: 50px;
+      display: flex;
+      flex-direction: row;
+    }
+
+    #branch-1{
+      top: -13px;
+    }
+
+    #branch-2{
+      top: -10px;
+    }
   }
 
   @media (min-width: 640px){
