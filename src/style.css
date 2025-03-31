@@ -567,6 +567,31 @@ background-color:#EB7C8F ;
      .sub-tags{
       font-size: 20px;
      } 
+
+  }
+
+  @media (min-width: 758px) and (max-width: 768px){
+    #img-4{
+      top: -260px;
+      left: 515px;
+      width: 200px;
+      height: 200px;
+    }
+
+    #img-3{
+      width: 160px;
+      height: 160px;
+      left: 430px;
+      top: 390px;
+    }
+       
+    #branch-1{
+      top: -58px;
+    }
+
+    #branch-2{
+      top: -58px;
+    }
   }
 
   @keyframes zoomIn{
