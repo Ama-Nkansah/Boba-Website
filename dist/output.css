@@ -524,9 +524,6 @@
   .absolute {
     position: absolute;
   }
-  .fixed {
-    position: fixed;
-  }
   .relative {
     position: relative;
   }
@@ -5067,6 +5064,33 @@
   }
   #branch-2 {
     top: -58px;
+  }
+  #menu-button {
+    margin-left: 310px;
+  }
+  .boba-tags1 {
+    left: 80px;
+    top: 40px;
+  }
+  .boba-tags2 {
+    left: 90px;
+    top: 45px;
+  }
+  .boba-tags3 {
+    left: 60px;
+    top: 44px;
+  }
+  .boba-tags4 {
+    left: 50px;
+    top: 45px;
+  }
+  .boba-tags5 {
+    left: 70px;
+    top: 45px;
+  }
+  .boba-tags6 {
+    left: 100px;
+    top: 45px;
   }
 }
 @keyframes zoomIn {
