@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /*! tailwindcss v4.0.3 | MIT License | https://tailwindcss.com */
 @layer theme, base, components, utilities;
 @layer theme {
@@ -458,8 +460,10 @@
     list-style: none;
   }
   img, svg, video, canvas, audio, iframe, embed, object {
-    display: block;
-    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
   }
   img, video {
     max-width: 100%;
@@ -523,6 +527,9 @@
 @layer utilities {
   .absolute {
     position: absolute;
+  }
+  .fixed {
+    position: fixed;
   }
   .relative {
     position: relative;
@@ -1012,6 +1019,7 @@
     }
   }
 }
+
 /*!
  * animate.css - https://animate.style/
  * Version - 4.1.1
@@ -1019,7 +1027,7 @@
  *
  * Copyright (c) 2020 Animate.css
  */
-@charset "UTF-8";
+
 :root {
   --animate-duration: 1s;
   --animate-delay: 1s;
@@ -4905,7 +4913,7 @@
     top: 45px;
   }
   .boba-tags5 {
-    left: 150px;
+    left: 10px;
     top: 45px;
   }
   .boba-tags6 {
